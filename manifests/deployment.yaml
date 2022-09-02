@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: rcv-deployment
+  labels:
+    name: rcv
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      name: rcv
+  template:
+    metadata:
+      labels:
+        name: rcv
+    spec:
+      securityContext:
+        runAsUser: 1000
+        runAsGroup: 1000
+      containers:
+      - name: rcv
+        image: kainlite/rcv:armv7-1
+        ports:
+        - containerPort: 8080
+        securityContext:
+          allowPrivilegeEscalation: false
