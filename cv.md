@@ -11,7 +11,7 @@ A bit of history about myself, I started at a very young age playing with linux 
 old computers with minimalist distributions, after some time I started learning about networking and got the CCNA certification 
 which made me gain more interest in linux, after some more time I started working as a system administrator which 
 basically was automating and helping/working with developers and product owners to deliver systems, applications and products 
-in a secure and reliable way (What we now call DevOps), over the years I have worked with different languages, 
+in a secure and reliable way, over the years I have worked with different languages, 
 distributions, virtual machines and finally containers and serverless functions (kubeless, lambda), and many other tools, 
 
 I'm planning to start another blog soon to document my web3 journey, I think writing and explaining things really helps
@@ -21,7 +21,7 @@ Some of my hobbies are playing guitar, ridding my bike and coding.
 
 You can find me [here](mailto:kainlite@gmail.com)
 
-# Online profiles:
+## Online profiles:
 
 **blog**: [https://techsquad.rocks/](https://techsquad.rocks/)
 
@@ -42,7 +42,7 @@ You can find me [here](mailto:kainlite@gmail.com)
 
 > Spanish: Mother language
 
-# Academic training
+## Academic training
 
 > **_2013 - Present (On hold)_**
 >
@@ -84,58 +84,85 @@ You can find me [here](mailto:kainlite@gmail.com)
 >
 > **Validation URL**: [http://aws.amazon.com/verification](http://aws.amazon.com/verification)
 
-# Work Experience
+## Work Experience
 
 > **_07/2021 - Current time_**
 >
 > **Mural (Tactivos S.A.)**: Sr. System Reliability Engineer (Remote).
 >
-> *  Mural is a product-focused company for teams collaboration, Discover digital-first visual collaboration with MURAL. More than an online whiteboard, where everyone contributes equally and hard problems are solved faster.
+> >  Mural is a product-focused company for teams collaboration, Discover digital-first visual collaboration with MURAL. 
+>    More than an online whiteboard, where everyone contributes equally and hard problems are solved faster. 
 >
-> * **In charge of**: Collaborate to grow internal modules and tools, processes and services. Designing and creating Infrastructure as Code (e.g. Terraform). Monitor site stability and performance and troubleshoot site issues among many other responsabilities.
->
-> * **Technologies used**: kubernetes, node, typescript, atlas, mongodb, terraform, git, Azure, jira, github actions, and many others.
+> >  Some of the things I do are collaborate to grow internal modules and tools, processes and services. Designing and
+>    creating Infrastructure as Code (e.g. Terraform). Monitor site stability and performance and troubleshoot site
+>    issues, improve or create internal tools as needed to automate or improve current processes. 
+>    some of the technologies used are: kubernetes, node, typescript, atlas, mongodb, terraform, git, azure, jira, 
+>    github actions, and many others.
 
 > **_07/2019 - 07/2021_**
 >
 > **Caylent Inc**: Sr. DevOps Engineer (Remote)
 >
-> * **Company profile**: Caylent provides on-demand custom DevOps outsourcing services, working alongside with many different teams sizes and project types to bring them to a modern state considering the current best practices and security guidelines, focusing on the infrastructure so the client can focus on the product.
+> > Caylent provides on-demand custom DevOps outsourcing services, working alongside with many different teams sizes 
+>   and project types to bring them to a modern state considering the current best practices and security guidelines, 
+>   focusing on the infrastructure so the client can focus on the product.
 >
-> * **In charge of**: Dockerization of environments, load testing, DR optimizations. Collaborate to grow internal modules and tools, processes and services, Designing and creating Infrastructure as Code (e.g. Terraform). Designing and maintaining modern application CI/CD pipelines (e.g. CircleCI, GitLab, Github actions). Monitor site stability and performance and troubleshoot site issues among many other responsabilities.
->
-> * **Technologies used**: kubernetes, helm, haproxy, redis, python, node, go, nginx, mysql/aurora, postgresql/aurora, terraform, git, AWS, jira, circleci, gitlab-ci, github actions, kibana, prometheus, elasticsearch, grafana, and many others.
+> > Some of the things I did there were dockerization of environments, migrations to cloud environments, load testing,
+>   collaborate to grow internal modules and tools, processes and services, designing and creating Infrastructure as 
+>   Code (e.g. Terraform). Designing and maintaining modern application CI/CD pipelines 
+>   (e.g. CircleCI, GitLab, Github actions). SSO configurations, and Cloud-first initiatives.
+>   some of the technologies used were: kubernetes, helm, haproxy, redis, python, node, go, nginx, mysql/aurora, 
+>   postgresql/aurora, terraform, git, AWS, jira, circleci, gitlab-ci, github actions, kibana, prometheus, 
+>   elasticsearch, grafana, and many others.
 
 > **_05/2018 - 06/2019_**
 >
 > **Santex America S.A.**: DevOps Engineer (Remote).
 >
-> * **Company profile**: Santex provides on-demand custom web development outsourcing services. Working with Lavu and allongside all IT, Development and QA members supporting and improving the infrastructure and software products.
+> > Santex provides on-demand custom web development outsourcing services. Working with Lavu and allongside all IT, 
+>   Development and QA members supporting and improving the infrastructure and software products.
 >
-> * **In charge of**: Dockerization of all development, test, staging and future production microservices (migrating from openvz). Also setup of AWS with terraform and cloud administration. Installation, and management of the development kubernetes cluster, deployments and helper tools (helm charts). Deployments to current production in openvz using blue-green strategies, configuration of build/deploy pipelines, documentation of the different implementations, backups to s3/glacier.
->
-> * **Technologies used**: haproxy, memcached, redis, yaml, kubectl, python, node, go, apache2, mysql, postgresql, terraform, bash, nginx, php-fpm, mediawiki, openvz, centos, docker, kubernetes, git, AWS, jira, bamboo (atlassian), kibana, prometheus, elasticsearch, fluent-bit, grafana, ansible.
+> > Some othe things I did there were dockerization of all development, test, staging and future production 
+>   microservices (migrating from openvz) and creating all CI pipelines for it. Also setup of AWS with terraform and 
+>   cloud administration. Installation, and management of the development kubernetes cluster, deployments and helper 
+>   tools (helm charts). Deployments to current production in openvz using blue-green strategies, configuration of 
+>   build/deploy pipelines, documentation of the different implementations, backups to s3/glacier. Some of the
+>   technologies used were:  haproxy, memcached, redis, yaml, kubectl, python, node, go, apache2, mysql, postgresql,
+>   terraform, bash, nginx, php-fpm, mediawiki, openvz, centos, docker, kubernetes, git, AWS, jira, bamboo (atlassian),
+>   kibana, prometheus, elasticsearch, fluent-bit, grafana, ansible.
 
 > **_09/2016 - 05/2018_**
 >
 > **OpenMinds**: Sysadmin.
 >
-> * **Company profile**: Openminds provides system administration as a service, some of the services that it provides are virtualization, containerization and cloud administration, deployment configurations and monitoring also use of pipelines and automation wherever is possible.
+> > Openminds provides system administration as a service, some of the services that it provides are virtualization, 
+>   containerization and cloud administration, deployment configurations and monitoring also use of pipelines and 
+>   automation wherever is possible.
 >
-> * **In charge of**: In charge of design, installation and management of IT solutions mainly based on Linux and Open Source software (mail, dns, db, web). Specializations: network security, virtualization systems, high availability clusters, information assurance and server administration tasks. Level 3 support for HostSailor Inc and administration tasks such as implementing chef, and other automation tools. Document processes about the different IT solutions, and provide a fast and accurate response to critical issues. Dockerization and AWS (mostly) cloud administration.
->
-> * **Technologies used**: apache2, mysql, postgresql, chef, bash, postfix, bind9, nginx, php-fpm, backuppc, blocksync, dokuwiki, openvpn, ldap (slapd), kvm, xen, openvz, debian, ubuntu, centos, cloudlinux, LVM, iptables, iproute2, git, samba4, fail2ban, ruby (chef), gitlab, docker, AWS, jenkins.
+> > Some of the things I did there were in charge of design, installation and management of IT solutions mainly based 
+>   on Linux and Open Source 
+>   software (mail, dns, db, web). Specializations: network security, virtualization systems, high availability 
+>   clusters, information assurance and server administration tasks. Level 3 support for HostSailor Inc and 
+>   administration tasks such as implementing chef, and other automation tools. Document processes about the different 
+>   IT solutions, and provide a fast and accurate response to critical issues. Dockerization and AWS (mostly) cloud 
+>   administration. Some of the technologies used: apache2, mysql, postgresql, chef, bash, postfix, bind9, nginx, 
+>   php-fpm, backuppc, blocksync, dokuwiki, openvpn, ldap (slapd), kvm, xen, openvz, debian, ubuntu, centos, 
+>   cloudlinux, LVM, iptables, iproute2, git, samba4, fail2ban, ruby (chef), gitlab, docker, AWS, jenkins.
 
 > **_06/2008 - 09/2016_**
 >
 > **Workjoy S.A**: Sysadmin (Remote).
 >
-> * **Company profile**: Workjoy is a software factory and also does outsourcing of professionals, it has clients in Argentina as in the United States.
+> > Workjoy is a software factory and also does outsourcing of professionals, it has clients in Argentina as 
+>   in the United States.
 >
-> * **In charge of**: In charge of the design and deployment of solutions and applications, management over several cloud providers and everything that is infrastructure related.
->
-> * **Technologies used**: bash, perl, ruby, golang, cacti, nagios, mysql, postgres, nginx, apache2, php-fpm, openvpn, debian, powerdns, squid, iptables, iproute2, git, opensmtpd, powermta, jenkins, docker.
+> > Some of the things I did there were in charge of the design and deployment of solutions and applications, 
+>   management over several cloud providers and everything that is infrastructure related, created and maintained
+>   closed chef-like solution to manage thousands of servers across many cloud providers. Some of the technologies 
+>   used were: bash, perl, ruby, golang, cacti, nagios, mysql, postgres, nginx, apache2, php-fpm, openvpn, debian, 
+>   powerdns, squid, iptables, iproute2, git, opensmtpd, powermta, jenkins, docker.
 
 # Notes
 
-This is a simple markdown file rendered as html, it's probably not optimal, but for the use case it is more than enough.
+This is a simple markdown file rendered as html, it's probably not optimal, but for the use case it is more than enough,
+you can check my blog for details.
