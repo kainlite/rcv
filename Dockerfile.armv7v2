@@ -1,0 +1,20 @@
+## builder
+FROM arm32v7/rust:1.63.0 as builder
+
+RUN apt update && apt upgrade -y
+
+WORKDIR /usr/src/app
+
+COPY . .
+
+RUN cargo build --release
+
+## release
+FROM arm32v7/rust:1.63
+
+WORKDIR /usr/src/app
+
+COPY --from=builder /usr/src/app/target/release/rcv /usr/src/app
+COPY --from=builder /usr/src/app/cv.md /usr/src/app
+
+CMD ["/usr/src/app/rcv"]
