@@ -9,6 +9,8 @@ metadata:
     # nginx.ingress.kubernetes.io/ssl-passthrough: "true"
     # handy to disable for the acme initial validation
     nginx.ingress.kubernetes.io/ssl-redirect: "true"
+    service.beta.kubernetes.io/do-loadbalancer-enable-proxy-protocol: "true"
+    use-proxy-protocol: "true"
 spec:
   tls:
   - hosts:
