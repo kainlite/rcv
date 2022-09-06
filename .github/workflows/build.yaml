@@ -37,5 +37,5 @@ jobs:
           context: .
           push: true
           file: Dockerfile.armv7
-          tags: ${{ steps.meta.outputs.tags }}, ${{ env.REGISTRY }}/${{ github.sha }}
+          tags: ${{ steps.meta.outputs.tags }}, ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}/${{ github.sha }}
           labels: ${{ steps.meta.outputs.labels }}
