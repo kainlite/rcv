@@ -19,7 +19,7 @@ spec:
         runAsGroup: 1000
       containers:
       - name: rcv
-        image: kainlite/rcv:armv7-1
+        image: ghcr.io/kainlite/rcv:tls
         ports:
         - containerPort: 8080
         securityContext:

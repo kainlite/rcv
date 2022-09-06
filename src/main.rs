@@ -21,7 +21,12 @@ async fn root(req: HttpRequest) -> impl Responder {
         .duration_since(SystemTime::UNIX_EPOCH)
         .unwrap_or(Duration::from_millis(0));
 
-    println!("[{}][{}]: Processing cv request...", now.as_secs(), ip);
+    println!(
+        "[{}][{}][{}]: Processing cv request...",
+        now.as_secs(),
+        ip,
+        peer_ip
+    );
 
     let data = fs::read_to_string("./cv.md").expect("Unable to read file");
     let html: String = markdown::to_html(&data);
@@ -32,6 +37,7 @@ async fn root(req: HttpRequest) -> impl Responder {
 #[actix_web::main]
 async fn main() -> std::io::Result<()> {
     HttpServer::new(|| App::new().service(root))
+        .workers(8)
         .bind(("0.0.0.0", 8080))?
         .run()
         .await
