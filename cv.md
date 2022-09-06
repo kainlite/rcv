@@ -2,7 +2,7 @@
 
 ## Who am I?
 
-Hello, my name is Gabriel and I'm living in Mendoza, Argentina, I'm a experienced systems engineer and DevOps Practitioner.
+Hello, my name is Gabriel and I'm living in Mendoza, Argentina, I'm an experienced systems engineer and DevOps Practitioner.
 I've been working implementing systems, solutions and creating different tools to help deliver software faster in a safe
 and secure way for the last 15 years, I'm always working on myself to get better and learn more, 
 I'm always reading about new technologies and tools, I also put some of my ideas and tests in my blog.
