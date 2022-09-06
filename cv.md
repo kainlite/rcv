@@ -2,7 +2,7 @@
 
 ## Who am I?
 
-Hello, my name is Gabriel and I'm living in Mendoza, Argentina, I'm a seasoned systems engineer and DevOps Practitioner.
+Hello, my name is Gabriel and I'm living in Mendoza, Argentina, I'm a experienced systems engineer and DevOps Practitioner.
 I've been working implementing systems, solutions and creating different tools to help deliver software faster in a safe
 and secure way for the last 15 years, I'm always working on myself to get better and learn more, 
 I'm always reading about new technologies and tools, I also put some of my ideas and tests in my blog.
@@ -107,7 +107,7 @@ You can find me [here](mailto:kainlite@gmail.com)
 >   and project types to bring them to a modern state considering the current best practices and security guidelines, 
 >   focusing on the infrastructure so the client can focus on the product.
 >
-> > Some of the things I did there were dockerization of environments, migrations to cloud environments, load testing,
+> > Some of the things I did there were containerize applications, migrations to cloud environments, load testing,
 >   collaborate to grow internal modules and tools, processes and services, designing and creating Infrastructure as 
 >   Code (e.g. Terraform). Designing and maintaining modern application CI/CD pipelines 
 >   (e.g. CircleCI, GitLab, Github actions). SSO configurations, and Cloud-first initiatives.
@@ -122,7 +122,7 @@ You can find me [here](mailto:kainlite@gmail.com)
 > > Santex provides on-demand custom web development outsourcing services. Working with Lavu and allongside all IT, 
 >   Development and QA members supporting and improving the infrastructure and software products.
 >
-> > Some othe things I did there were dockerization of all development, test, staging and future production 
+> > Some othe things I did there were containerize applications of all development, test, staging and future production 
 >   microservices (migrating from openvz) and creating all CI pipelines for it. Also setup of AWS with terraform and 
 >   cloud administration. Installation, and management of the development kubernetes cluster, deployments and helper 
 >   tools (helm charts). Deployments to current production in openvz using blue-green strategies, configuration of 
