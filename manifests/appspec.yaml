@@ -1,0 +1,24 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  annotations:
+    argocd-image-updater.argoproj.io/image-list: rcv=ghcr.io/kainlite/rcv:latest
+    argocd-image-updater.argoproj.io/rcv.update-strategy: digest
+  name: rcv
+  namespace: argocd
+spec:
+  destination:
+    namespace: default
+    server: https://kubernetes.default.svc
+  project: default
+  source:
+    kustomize:
+      images:
+      - ghcr.io/kainlite/rcv:latest
+    path: manifests
+    repoURL: https://github.com/kainlite/rcv
+    targetRevision: master
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
