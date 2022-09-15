@@ -4,7 +4,7 @@ on:
   push:
 
 env:
-  IMAGE_NAME: ${{ secrets.DOCKER_USERNAME }}/${{ github.repository }}
+  IMAGE_NAME: ${{ github.repository }}
 
 jobs:
   build-and-push-image:
