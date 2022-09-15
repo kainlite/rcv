@@ -37,7 +37,7 @@ jobs:
           context: .
           push: true
           file: Dockerfile.armv7
-          tags: ${{ steps.meta.outputs.tags }}, ${{ env.IMAGE_NAME }}:${{ github.sha }}, ${{ env.IMAGE_NAME }}:latest
+          tags: ${{ steps.meta.outputs.tags }}, arm32v7/${{ env.IMAGE_NAME }}:${{ github.sha }}, arm32v7/${{ env.IMAGE_NAME }}:latest
           labels: ${{ steps.meta.outputs.labels }}
 
       - name: Build and push Docker image arm64
@@ -46,5 +46,5 @@ jobs:
           context: .
           push: true
           file: Dockerfile.armv8
-          tags: ${{ steps.meta.outputs.tags }}, ${{ env.IMAGE_NAME }}:${{ github.sha }}, ${{ env.IMAGE_NAME }}:latest
+          tags: ${{ steps.meta.outputs.tags }}, arm64v8/${{ env.IMAGE_NAME }}:${{ github.sha }}, aarch64/${{ env.IMAGE_NAME }}:latest
           labels: ${{ steps.meta.outputs.labels }}
