@@ -14,11 +14,11 @@ metadata:
 spec:
   tls:
   - hosts:
-      - rcv.techsquad.rocks
+      - rcv.segfault.pw
     secretName: rcv-prod-tls
   # ingressClassName: nginx
   rules:
-  - host: rcv.techsquad.rocks
+  - host: rcv.segfault.pw
     http:
       paths:
       - pathType: Prefix
