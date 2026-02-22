@@ -9,7 +9,7 @@ RUN apk add --no-cache musl-dev
 COPY Cargo.toml Cargo.lock* ./
 RUN mkdir src && echo 'fn main() {}' > src/main.rs && \
     cargo build --release && \
-    rm -rf src
+    rm -rf src target/release/rcv target/release/deps/rcv-*
 
 COPY src ./src
 RUN cargo build --release
