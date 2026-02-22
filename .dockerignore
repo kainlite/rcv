@@ -1,0 +1,10 @@
+target/
+.git/
+.github/
+manifests/
+*.jpg
+*.pdf
+*.md
+!cv.md
+.gitignore
+.dockerignore
