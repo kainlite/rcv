@@ -1,64 +1,92 @@
-# CURRICULUM VITAE
+# Gabriel Garrido
 
-## Who am I?
+## Cloud Engineer / SRE / DevOps
 
-Hello, my name is Gabriel and I'm living in Mendoza, Argentina, I'm an experienced systems engineer and DevOps Practitioner.
-I've been working implementing systems, solutions and creating different tools to help deliver software faster in a safe
-and secure way for the last 15 years, I'm always working on myself to get better and learn more, 
-I'm always reading about new technologies and tools, I also put some of my ideas and tests in my blog.
+Godoy Cruz, Mendoza, Argentina
 
-A bit of history about myself, I started at a very young age playing with linux using it as a router on really really 
-old computers with minimalist distributions, after some time I started learning about networking and got the CCNA certification 
-which made me gain more interest in linux, after some more time I started working as a system administrator which 
-basically was automating and helping/working with developers and product owners to deliver systems, applications and products 
-in a secure and reliable way, over the years I have worked with different languages, 
-distributions, virtual machines and finally containers and serverless functions (kubeless, lambda), and many other tools, 
+## Profile
 
-I'm planning to start another blog soon to document my web3 journey, I think writing and explaining things really helps
-to cement and put everything learned in the long term memory, part of this is what I have learnt about smart contracts.
+Hey, I'm Gabriel. I started my journey configuring Linux routers (networking) at the age of 16 and became a big fan
+of Linux. I started my professional journey as a Linux system administrator (which I did for about 10 years), during which
+I did a lot of automation, managed more than 2000 servers, and created my own chef-like solution. Then I started learning
+about DevOps and the whole movement, which got me into my first DevOps position.
 
-Some of my hobbies are playing guitar, ridding my bike and coding.
+From there I navigated back to SRE (administration, observability, monitoring) while I did a bit of cloud architecting
+and engineering. In my first few years I worked with AWS a lot, then Azure, and now again AWS. While the trajectory
+wasn't a straight line, my focus is clear: SRE. I discovered along the way that observability, monitoring,
+incident response, and automation are key to any successful product, and that's what I really enjoy doing.
+During my time as SRE I have built and improved many systems architectures using Terraform,
+observed and monitored using Datadog/Grafana/Prometheus, and created internal tooling (Go/Bash).
+My goal is to continue growing on the SRE track toward staff-level engineering, driving reliability and
+operational excellence at scale.
 
-You can find me [here](mailto:kainlite@gmail.com)
+I share practical SRE tips, DevOps insights, Kubernetes tips, and automation strategies on my blog.
 
-## Online profiles:
+Some of my hobbies are playing guitar, riding my bike, and coding.
 
-**blog**: [https://techsquad.rocks/](https://techsquad.rocks/)
+You can find me [here](mailto:kainlite@gmail.com) | [gabriel@segfault.pw](mailto:gabriel@segfault.pw)
 
-**linkedin**: [https://ar.linkedin.com/in/gabrielgarrido](https://techsquad.rocks/)
+## Online profiles
+
+**blog**: [https://segfault.pw/en/blog](https://segfault.pw/en/blog)
+
+**linkedin**: [https://www.linkedin.com/in/gabrielgarrido](https://www.linkedin.com/in/gabrielgarrido)
 
 **github**: [https://github.com/kainlite](https://github.com/kainlite)
 
 **stackoverflow**: [https://stackoverflow.com/users/313941/kainlite](https://stackoverflow.com/users/313941/kainlite)
 
-**bitbucket**: [https://bitbucket.org/kainlite/](https://bitbucket.org/kainlite/)
+**X (Twitter)**: [https://x.com/kainlite](https://x.com/kainlite)
 
-**twitter**: [https://twitter.com/kainlite](https://twitter.com/kainlite)
+## Skills and Technologies
 
+- **Top Skills**: SRE, Datadog, Amazon EKS
+- **Cloud**: AWS, Azure, GCP
+- **Containers & Orchestration**: Kubernetes, Docker, Helm, ArgoCD, k3s
+- **Infrastructure as Code**: Terraform, Ansible, Chef
+- **CI/CD**: GitHub Actions, GitLab CI, CircleCI, Jenkins
+- **Monitoring & Observability**: Datadog, Prometheus, Grafana, Elasticsearch, Kibana
+- **Languages**: Rust, Go, Elixir, Python, Bash, Ruby, TypeScript, Node.js
+- **Databases**: PostgreSQL, MySQL, MongoDB, Redis
+- **Networking & Security**: HAProxy, Nginx, OpenVPN, iptables, cert-manager
+- **Other**: Effective Communication, Critical Thinking, Software Development, Security Hardening
 
-## Language
+## Notable Projects
 
-> English: Advanced
+- **[kube-forward](https://github.com/kainlite/kube-forward)**: Kubernetes port-forwarding tool written in Rust
+- **[gitops-operator](https://github.com/kainlite/gitops-operator)**: Kubernetes operator for GitOps workflows
+- **[ts-operator](https://github.com/kainlite/ts-operator)**: Kubernetes operator for Tailscale integration
+- **[tr](https://github.com/kainlite/tr)**: Blog engine powering segfault.pw, built with Elixir/Phoenix
 
-> Spanish: Mother language
+## Languages
 
-## Academic training
+> English: Professional Working
 
-> **_2013 - Present (On hold)_**
+> Spanish: Native or Bilingual
+
+## Education
+
+> **_Universidad Empresarial 'Siglo 21'_**
 >
-> UE 21 - Computer Science, Completed 28/52 school subjects, Mendoza, Argentina
+> Licentiate degree, Computer Science (On hold)
 
-> **_03/1999 - 04/2003_**
+> **_Proydesa_**
 >
-> High School. E.P.E.T. 4, San Juan, Argentina.
+> Course, Enterprise Security and Risk (2008)
+
+> **_Instituto Superior de Redes Informaticas_**
+>
+> CCNA, Networking (2005 - 2007)
+
+> **_Instituto Saavedra_**
+>
+> Course, Programming / Databases (2004 - 2005)
+
+> **_E.P.E.T. Numero 4_**
+>
+> Informatica personal y profesional (1999 - 2003)
 
 ## Certifications
-
-> **_1/2021 - 03/2021_**
->
-> **Certified Blockchain Developer, ChainShot**.
->
-> **Validation URL**: [https://www.chainshot.com/certificates/ggar0322](https://www.chainshot.com/certificates/ggar0322)
 
 > **_12/2021 - 12/2024_**
 >
@@ -76,7 +104,7 @@ You can find me [here](mailto:kainlite@gmail.com)
 >
 > Validation URL: [https://training.linuxfoundation.org/certification/verify/](https://training.linuxfoundation.org/certification/verify/)
 
-> **_03/2020 - 03/2023_**
+> **_03/2023 - 03/2026_**
 >
 > **AWS Solutions Architect Associate, AWS.**
 >
@@ -86,83 +114,85 @@ You can find me [here](mailto:kainlite@gmail.com)
 
 ## Work Experience
 
-> **_07/2021 - Current time_**
+> **_09/2025 - Present_**
 >
-> **Mural (Tactivos S.A.)**: Sr. System Reliability Engineer (Remote).
+> **EPAM Systems**: Senior SRE (Remote).
 >
-> >  Mural is a product-focused company for teams collaboration, Discover digital-first visual collaboration with MURAL. 
->    More than an online whiteboard, where everyone contributes equally and hard problems are solved faster. 
+> > EPAM is a global technology company delivering digital platform engineering and software development services.
+
+> **_12/2024 - 09/2025_**
 >
-> >  Some of the things I do are collaborate to grow internal modules and tools, processes and services. Designing and
->    creating Infrastructure as Code (e.g. Terraform). Monitor site stability and performance and troubleshoot site
->    issues, improve or create internal tools as needed to automate or improve current processes. 
->    some of the technologies used are: kubernetes, node, typescript, atlas, mongodb, terraform, git, azure, jira, 
->    github actions, and many others.
+> **EPAM Systems**: Cloud Architect (Argentina).
+>
+> > Leading AWS and Kubernetes (EKS) infrastructure implementations for client environments.
+>   Designing and implementing CI/CD pipelines for streamlined application deployments.
+>   Implementing infrastructure as code using Terraform and integrating with AWS services.
+>   Focusing on cloud security best practices and cost optimization strategies.
+
+> **_08/2024 - 12/2024_**
+>
+> **Self-employed**: Freelance DevOps Engineer (Argentina).
+>
+> > Freelance infrastructure and DevOps consulting for various clients.
+
+> **_07/2021 - 06/2024_**
+>
+> **MURAL**: Senior SRE (Remote).
+>
+> > Mural is a product-focused company for team collaboration. Discover digital-first visual collaboration with MURAL,
+>   more than an online whiteboard where everyone contributes equally and hard problems are solved faster.
+>
+> > Led the optimization of global infrastructure and Terraform modules at MURAL, resulting in cost reduction
+>   and improved team responsiveness to changes. Streamlined system changes by implementing conventions and
+>   automation, significantly increasing efficiency. Successfully performed on-call duties and resolved multiple
+>   incidents to ensure seamless operations and uptime.
+>
+> > Skills: MongoDB / Atlas, AWS (S3, Route53, CloudFront), Azure (AKS, Vnets, VMSS, AppGW), Libs, Blob storage,
+>   etcd, TypeScript, Node.js, Bash, ArgoCD, Kubernetes (Rancher RKE/RKE2), Kustomize, Bash,
+>   Docker, Terraform and TFC, GitHub Actions, DataDog, Redis.
 
 > **_07/2019 - 07/2021_**
 >
-> **Caylent Inc**: Sr. DevOps Engineer (Remote)
+> **Caylent**: Senior DevOps Engineer (Remote).
 >
-> > Caylent provides on-demand custom DevOps outsourcing services, working alongside with many different teams sizes 
->   and project types to bring them to a modern state considering the current best practices and security guidelines, 
->   focusing on the infrastructure so the client can focus on the product.
+> > Focused on infrastructure modernization in alignment with industry best practices and security standards
+>   for different clients. Collaborated seamlessly with diverse teams across various projects, optimizing
+>   infrastructure for clients to prioritize product development, security, and code deployment.
 >
-> > Some of the things I did there were containerize applications, migrations to cloud environments, load testing,
->   collaborate to grow internal modules and tools, processes and services, designing and creating Infrastructure as 
->   Code (e.g. Terraform). Designing and maintaining modern application CI/CD pipelines 
->   (e.g. CircleCI, GitLab, Github actions). SSO configurations, and Cloud-first initiatives.
->   some of the technologies used were: kubernetes, helm, haproxy, redis, python, node, go, nginx, mysql/aurora, 
->   postgresql/aurora, terraform, git, AWS, jira, circleci, gitlab-ci, github actions, kibana, prometheus, 
->   elasticsearch, grafana, and many others.
+> > Skills: AWS (S3, RDS, MariaDB and PostgreSQL), CloudFront, EC2, EKS, ECS, IAM, VPC, etc., GitHub Actions,
+>   CircleCI, Helm, Bash, Terraform, k8s Frameworks, Docker, ArgoCD, GitLab CI/CD, Kubernetes, Go, Terratest.
 
 > **_05/2018 - 06/2019_**
 >
-> **Santex America S.A.**: DevOps Engineer (Remote).
+> **Santex**: DevOps Engineer (Argentina).
 >
-> > Santex provides on-demand custom web development outsourcing services. Working with Lavu and allongside all IT, 
->   Development and QA members supporting and improving the infrastructure and software products.
+> > Led migration to Kubernetes from OpenVZ containers, including maintaining the old CI/CD pipelines and creating
+>   new ones to support the new infrastructure. Configured and maintained on-premises cluster.
+>   Created Slack bot to manage developer environments. Successfully performed on-call duties and resolved
+>   multiple incidents to ensure seamless operations and uptime.
 >
-> > Some othe things I did there were containerize applications of all development, test, staging and future production 
->   microservices (migrating from openvz) and creating all CI pipelines for it. Also setup of AWS with terraform and 
->   cloud administration. Installation, and management of the development kubernetes cluster, deployments and helper 
->   tools (helm charts). Deployments to current production in openvz using blue-green strategies, configuration of 
->   build/deploy pipelines, documentation of the different implementations, backups to s3/glacier. Some of the
->   technologies used were:  haproxy, memcached, redis, yaml, kubectl, python, node, go, apache2, mysql, postgresql,
->   terraform, bash, nginx, php-fpm, mediawiki, openvz, centos, docker, kubernetes, git, AWS, jira, bamboo (atlassian),
->   kibana, prometheus, elasticsearch, fluent-bit, grafana, ansible.
+> > Skills: OpenVZ, AWS (S3, RDS, MariaDB, EC2), Moodle, Terraform, Docker, Bamboo, Ansible, Bash, Redis,
+>   Haproxy, Memcached, Kubernetes, LVM, Networking, Go, Python.
 
 > **_09/2016 - 05/2018_**
 >
-> **OpenMinds**: Sysadmin.
+> **OpenMinds**: Senior Linux Sysadmin (Argentina).
 >
-> > Openminds provides system administration as a service, some of the services that it provides are virtualization, 
->   containerization and cloud administration, deployment configurations and monitoring also use of pipelines and 
->   automation wherever is possible.
+> > Managed system administration services encompassing virtualization, containerization, and cloud administration,
+>   emphasizing automation and deployment configurations. Specialized in designing, installing, and managing
+>   Linux-based solutions, including mail, DNS, databases, and web servers. Proficient in network security,
+>   high-availability clusters, and server administration, providing Level 3 support for HostSailor Inc.
+>   Implemented automation tools like Chef and documented IT processes. Skilled in Dockerization and AWS
+>   cloud administration.
 >
-> > Some of the things I did there were in charge of design, installation and management of IT solutions mainly based 
->   on Linux and Open Source 
->   software (mail, dns, db, web). Specializations: network security, virtualization systems, high availability 
->   clusters, information assurance and server administration tasks. Level 3 support for HostSailor Inc and 
->   administration tasks such as implementing chef, and other automation tools. Document processes about the different 
->   IT solutions, and provide a fast and accurate response to critical issues. Dockerization and AWS (mostly) cloud 
->   administration. Some of the technologies used: apache2, mysql, postgresql, chef, bash, postfix, bind9, nginx, 
->   php-fpm, backuppc, blocksync, dokuwiki, openvpn, ldap (slapd), kvm, xen, openvz, debian, ubuntu, centos, 
->   cloudlinux, LVM, iptables, iproute2, git, samba4, fail2ban, ruby (chef), gitlab, docker, AWS, jenkins.
+> > Skills: Apache, MySQL, PostgreSQL, Chef, Postfix, BIND9, Nginx, PHP-FPM, BackupPC, OpenVPN, LDAP,
+>   KVM, Xen, OpenVZ, Debian, Ubuntu, CentOS, Docker, AWS, Jenkins, GitLab.
 
 > **_06/2008 - 09/2016_**
 >
-> **Workjoy S.A**: Sysadmin (Remote).
+> **Workjoy**: Senior Linux Administrator (Remote).
 >
-> > Workjoy is a software factory and also does outsourcing of professionals, it has clients in Argentina as 
->   in the United States.
->
-> > Some of the things I did there were in charge of the design and deployment of solutions and applications, 
->   management over several cloud providers and everything that is infrastructure related, created and maintained
->   closed chef-like solution to manage thousands of servers across many cloud providers. Some of the technologies 
->   used were: bash, perl, ruby, golang, cacti, nagios, mysql, postgres, nginx, apache2, php-fpm, openvpn, debian, 
->   powerdns, squid, iptables, iproute2, git, opensmtpd, powermta, jenkins, docker.
-
-# Notes
-
-This is a simple markdown file rendered as html, it's probably not optimal, but for the use case it is more than enough,
-you can check my blog for details.
+> > Responsible for designing and deploying solutions and applications, managing infrastructure across multiple
+>   cloud providers for clients in Argentina and the United States. Proficient in a variety of technologies
+>   including Bash, Perl, Ruby, Golang, monitoring tools like Cacti and Nagios, databases such as MySQL
+>   and PostgreSQL, web servers like Nginx and Apache, as well as deployment tools like Jenkins and Docker.

@@ -1,32 +1,29 @@
 ## build
-FROM rust:1.63-alpine as builder
+FROM rust:1.85-alpine AS builder
 
 WORKDIR /usr/src/app
 
 RUN apk add --no-cache musl-dev
-RUN rustup target add x86_64-unknown-linux-musl
 
-COPY . .
-RUN cargo build --release 
+# Cache dependencies
+COPY Cargo.toml Cargo.lock* ./
+RUN mkdir src && echo 'fn main() {}' > src/main.rs && \
+    cargo build --release && \
+    rm -rf src
 
-CMD ["rcv"]
+COPY src ./src
+RUN cargo build --release
 
 ## release
-FROM rust:1.63-alpine 
+FROM alpine:3.21
 
 WORKDIR /app
 
-ARG USERNAME=app
-ARG USER_UID=1000
-ARG USER_GID=$USER_UID
+RUN addgroup -g 1000 app && adduser -D -u 1000 -G app app
 
-RUN addgroup -S $USERNAME && adduser -S $USERNAME -G $USERNAME -u $USER_UID
+COPY --from=builder --chown=app:app /usr/src/app/target/release/rcv /app/
+COPY --chown=app:app cv.md /app/
 
-COPY --from=builder --chown=$USERNAME:$USERNAME /usr/src/app/target/release/rcv /app
-COPY --from=builder --chown=$USERNAME:$USERNAME /usr/src/app/cv.md /app
-
-RUN chown -R $USERNAME /app
-
-USER $USERNAME
+USER app
 
 CMD ["/app/rcv"]
