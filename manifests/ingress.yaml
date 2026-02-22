@@ -3,20 +3,13 @@ kind: Ingress
 metadata:
   name: rcv-ingress
   annotations:
-    kubernetes.io/ingress.class: "nginx"
-    nginx.ingress.kubernetes.io/rewrite-target: "/"
     cert-manager.io/cluster-issuer: "letsencrypt-prod"
-    # nginx.ingress.kubernetes.io/ssl-passthrough: "true"
-    # handy to disable for the acme initial validation
-    nginx.ingress.kubernetes.io/ssl-redirect: "true"
-    service.beta.kubernetes.io/do-loadbalancer-enable-proxy-protocol: "true"
-    use-proxy-protocol: "true"
 spec:
+  ingressClassName: traefik
   tls:
   - hosts:
       - rcv.segfault.pw
     secretName: rcv-prod-tls
-  # ingressClassName: nginx
   rules:
   - host: rcv.segfault.pw
     http:
